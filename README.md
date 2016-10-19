@@ -2,11 +2,15 @@
 Settting CMS environment
 ====
   source /cvmfs/cms.cern.ch/cmsset_default.sh
-  source /cvmfs/cms.cern.ch/crab3/crab.sh
-  setenv SCRAM_ARCH slc6_amd64_gcc493
-  source /d2/scratch/khakim/root_SL5/root/bin/thisroot.sh
+  export SCRAM_ARCH=slc6_amd64_gcc530
 
-#### Screen command ####
+CRAB Commands
+====
+  source /cvmfs/cms.cern.ch/crab3/crab.sh
+  crab submit --dryrun crab_cfg.py
+  crab proceed -d crab_project/crab_analysis
+
+Screen commands
 ====
 screen -S sessionname #create session
 screen -R sessionname #go into session
