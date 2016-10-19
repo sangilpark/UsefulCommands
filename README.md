@@ -1,7 +1,6 @@
 # UsefulCommands
-#### Settting CMS environment ####
+Settting CMS environment
 ====
-haha
   source /cvmfs/cms.cern.ch/cmsset_default.sh
   source /cvmfs/cms.cern.ch/crab3/crab.sh
   setenv SCRAM_ARCH slc6_amd64_gcc493
