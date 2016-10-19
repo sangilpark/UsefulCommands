@@ -1,11 +1,13 @@
 # UsefulCommands
 #### Settting CMS environment ####
+====
   source /cvmfs/cms.cern.ch/cmsset_default.sh
   source /cvmfs/cms.cern.ch/crab3/crab.sh
   setenv SCRAM_ARCH slc6_amd64_gcc493
   source /d2/scratch/khakim/root_SL5/root/bin/thisroot.sh
 
 #### Screen command ####
+====
 screen -S sessionname #create session
 screen -R sessionname #go into session
 screen -list          #screen list
