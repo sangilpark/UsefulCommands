@@ -1,8 +1,8 @@
 # UsefulCommands
 Settting CMS environment
 ====
-  source /cvmfs/cms.cern.ch/cmsset_default.sh
-  export SCRAM_ARCH=slc6_amd64_gcc530
+    source /cvmfs/cms.cern.ch/cmsset_default.sh
+    export SCRAM_ARCH=slc6_amd64_gcc530
 
 CRAB Commands
 ====
