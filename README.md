@@ -1,4 +1,5 @@
 # UsefulCommands
+
 Settting CMS environment
 ====
     source /cvmfs/cms.cern.ch/cmsset_default.sh
@@ -6,16 +7,16 @@ Settting CMS environment
 
 CRAB Commands
 ====
-  source /cvmfs/cms.cern.ch/crab3/crab.sh
-  crab submit --dryrun crab_cfg.py
-  crab proceed -d crab_project/crab_analysis
+    source /cvmfs/cms.cern.ch/crab3/crab.sh
+    crab submit --dryrun crab_cfg.py
+    crab proceed -d crab_project/crab_analysis
 
 Screen commands
 ====
-screen -S sessionname #create session
-screen -R sessionname #go into session
-screen -list          #screen list
-Ctrl-a,d # detach
+    screen -S sessionname #create session
+    screen -R sessionname #go into session
+    screen -list          #screen list
+    Ctrl-a,d # detach
 
 #### KNU Boson pT ####
 git clone git@github.com:d4space/TerraNova.git
