@@ -81,11 +81,14 @@ CERNBOX
 
 FDT Usage 
 ====
-(Client side)
+Client side.
+
     java -jar /u/user/sangilpark/fdt/fdt.jar -S&  # same as ./fdtstandby.sh
     java -Xms32M -Xmx100M -jar [fdt location] -c [Destination server] -d [Destination directory] -P 12 -r [Directory to send]
     java -Xms32M -Xmx100M -jar /home/spak/fdt.jar -c cms02.knu.ac.kr -d /u/user/sangilpark/tmp -P 12 -r /Storage1/CernBox_Jasper_76X
-(Server side)
+
+Server side.
+
     java -jar /u/user/sangilpark/fdt/fdt.jar -S& # same as ./fdtstandby.sh
 
 EDM commands
@@ -93,7 +96,9 @@ EDM commands
     edmFileUtil -d  /store/data/Run2015D/SingleMuon/MINIAOD/PromptReco-v4/000/258/159/00000/6CA1C627-246C-E511-8A6A-02163E014147.root
     mkedanlzr DemoAnalyzer
     edmDumpEventContent /afs/cern.ch/cms/Tutorials/TWIKI_DATA/TTJets_8TeV_53X.root
-PickEvent
+
+PickEvent.
+
     edmPickEvents.py "/SingleMuon/Run2015B-PromptReco-v1/RECO" 251252:127:14760672 --runInteractive
     edmCopyPickMerge inputFiles=root://cms-xrd-global.cern.ch//store/data/Run2015B/SingleMuon/RECO/PromptReco-v1/000/251/493/00000/0C35D6F8-D028-E511-9651-02163E012283.root outputFile=/u/user/khakim/forSangil/0C35D6F8-D028-E511-9651-02163E012283.root maxEvents=5000
 
@@ -102,5 +107,6 @@ UI SE mount location
     /pnfs/knu.ac.kr/data/cms/store/user/(UserID)
 
 BrilCalc Usage
+====
     brilcalc lumi --begin 276315 --end 276811 -u /fb -b "STABLE BEAMS" --normtag /afs/cern.ch/user/l/lumipro/public/normtag_file/normtag_DATACERT.json -i Cert_271036-277933_13TeV_PromptReco_Collisions16_JSON.txt
 
