@@ -34,6 +34,10 @@ MIT W/Z
     git clone https://github.com/jaylawhorn/BaconProd.git
     git clone https://github.com/jaylawhorn/BaconAna.git
 
+MetTools
+====
+    git clone -b SangEunBranch git@github.com:cms-met/MetTools.git
+
 MET Scan
 ====
     https://github.com/cms-met/MetScanning.git
