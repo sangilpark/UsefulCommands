@@ -114,3 +114,6 @@ BrilCalc Usage
 ====
     brilcalc lumi --begin 276315 --end 276811 -u /fb -b "STABLE BEAMS" --normtag /afs/cern.ch/user/l/lumipro/public/normtag_file/normtag_DATACERT.json -i Cert_271036-277933_13TeV_PromptReco_Collisions16_JSON.txt
 
+Vim Spell check
+====
+    :setlocal spell spelllang=en_us
