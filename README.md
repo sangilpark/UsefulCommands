@@ -112,6 +112,7 @@ UI SE mount location
 
 BrilCalc Usage
 ====
+    export PATH=$HOME/.local/bin:/afs/cern.ch/cms/lumi/brilconda-1.0.3/bin:$PATH
     brilcalc lumi --begin 276315 --end 276811 -u /fb -b "STABLE BEAMS" --normtag /afs/cern.ch/user/l/lumipro/public/normtag_file/normtag_DATACERT.json -i Cert_271036-277933_13TeV_PromptReco_Collisions16_JSON.txt
 
 Vim Spell check
