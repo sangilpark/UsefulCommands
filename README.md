@@ -89,9 +89,9 @@ Client side.
 
     java -jar /u/user/sangilpark/fdt/fdt.jar -S&  # same as ./fdtstandby.sh
     java -Xms32M -Xmx100M -jar [fdt location] -c [Destination server] -d [Destination directory] -P 12 -r [Directory to send]
-    java -Xms32M -Xmx100M -jar /home/spak/fdt.jar -c cms02.knu.ac.kr -d /u/user/sangilpark/tmp -P 12 -r /Storage1/CernBox_Jasper_76X
+    java -Xms32M -Xmx100M -jar /afs/cern.ch/user/s/spak/fdt/fdt.jar -c cms.knu.ac.kr -d /d1/scratch/sangilpark/Latino_CernBox/80Xv2/HWW12fb_repro -P 12 -r /afs/cern.ch/user/s/spak/eos/cms/store/group/phys_higgs/cmshww/amassiro/HWW12fb_repro/05Jul2016_Run2016B_PromptReco_repro
 
-Server side.
+Destination side.
 
     java -jar /u/user/sangilpark/fdt/fdt.jar -S& # same as ./fdtstandby.sh
 
