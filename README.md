@@ -122,4 +122,5 @@ Vim Spell check
 WebFTS Usage
 ====
 Grid SE endpoint example.
+
     root://eoscms.cern.ch//store/group/phys_higgs/cmshww/
