@@ -101,7 +101,7 @@ EDM commands
     mkedanlzr DemoAnalyzer
     edmDumpEventContent /afs/cern.ch/cms/Tutorials/TWIKI_DATA/TTJets_8TeV_53X.root
 
-PickEvent :
+PickEvent.
 
     edmPickEvents.py "/SingleMuon/Run2015B-PromptReco-v1/RECO" 251252:127:14760672 --runInteractive
     edmCopyPickMerge inputFiles=root://cms-xrd-global.cern.ch//store/data/Run2015B/SingleMuon/RECO/PromptReco-v1/000/251/493/00000/0C35D6F8-D028-E511-9651-02163E012283.root outputFile=/u/user/khakim/forSangil/0C35D6F8-D028-E511-9651-02163E012283.root maxEvents=5000
@@ -121,5 +121,5 @@ Vim Spell check
 
 WebFTS Usage
 ====
-Grid SE endpoint example
+Grid SE endpoint example.
     root://eoscms.cern.ch//store/group/phys_higgs/cmshww/
