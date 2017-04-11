@@ -118,3 +118,7 @@ BrilCalc Usage
 Vim Spell check
 ====
     :setlocal spell spelllang=en_us
+
+WebFTS Usage
+====
+    root://eoscms.cern.ch//store/group/phys_higgs/cmshww/amassiro/Full2016/
