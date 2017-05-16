@@ -124,3 +124,4 @@ WebFTS Usage
 Grid SE endpoint example.
 
     root://eoscms.cern.ch//store/group/phys_higgs/cmshww/
+    srm://cluster142.knu.ac.kr:8443/srm/managerv2?SFN=/pnfs/knu.ac.kr/data/cms/store/user/spak
