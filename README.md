@@ -71,7 +71,7 @@ dcap protocol
 
 UberFTP
 ====
-    voms-proxy-init --voms cms
+    voms-proxy-init --voms cms --valid 168:0
     uberftp cluster142.knu.ac.kr "ls /pnfs/knu.ac.kr/data/cms/store/user/spak"
     get -r directory # copy files from SE to local
     put -r directory # copy files from local to SE
