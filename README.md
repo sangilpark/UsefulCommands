@@ -129,3 +129,7 @@ Grid SE endpoint example.
     srm://maite.iihe.ac.be:8443/pnfs/iihe/cms/store/user/xjanssen/HWW2015/RunII/2016/Apr2017/MC/LatinoTrees/
     srm://dcache-se-cms.desy.de/pnfs/desy.de/cms/tier2/store/user/sbein/NtupleHub/ProductionRun2v3
     
+DASGO
+====
+dasgoclient --query="dataset file=/store/mc/RunIISummer16DR80Premix/SMS-T2bt-LLChipm_ctau-200_mLSP-900_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/AODSIM/PUMoriond17_longlived_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v2/260000/BEDE428C-62A5-E911-9CD4-B026283DA2A0.root"
+/SMS-T2bt-LLChipm_ctau-200_mLSP-900_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_longlived_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v2/AODSIM
