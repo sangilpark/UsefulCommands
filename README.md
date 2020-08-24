@@ -44,13 +44,12 @@ MET Scan
 
 XROOTD commands
 ====
-protocols :
-cmsxrootd.fnal.gov : US
-xrootd-cms.infn.it : Europe and Asia
-cms-xrd-global.cern.ch : global
+protocols :\
+cmsxrootd.fnal.gov : US\
+xrootd-cms.infn.it : Europe and Asia\
+cms-xrd-global.cern.ch : global\
 
     xrdcp root://[protocol]///store/mc/.../sample.root .
-    root://eosuser.cern.ch//eos/user/j/jlauwers/HWW2015/21Jun2016_Run2016B_PromptReco/l2loose__hadd__EpTCorr__l2tight/latino_Run2016B_PromptReco_DoubleEG.root
     xrdfs root://eoscms.cern.ch stat /store/data/.../sample.root
     
 batch job submission on KNU T2
