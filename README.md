@@ -44,12 +44,15 @@ MET Scan
 
 XROOTD commands
 ====
-    xrdcp root://xrootd.unl.edu////store/mc/Spring14miniaod/WplusToMuNu_CT10_13TeV-powheg-pythia8/MINIAODSIM/PU20bx25_POSTLS170_V5-v1/00000/AED9D7C6-4409-E411-AC3E-A5BCA2C588C1.root .
-    xrdcp root://xrootd-cms.infn.it//store/data/Run2015A/SingleMu/AOD/PromptReco-v1/000/246/865/00000/F042A080-140B-E511-8B1C-02163E0134B0.root .
-    root -l root://xrootd-cms.infn.it//store/group/phys_higgs/cmshww/amassiro/RunII/2016/Jun07/MC/v2/LatinoTrees/latino_ZZ__part0.root
-    root://eosuser.cern.ch//eos/user/j/jlauwers/HWW2015/21Jun2016_Run2016B_PromptReco/l2loose__hadd__EpTCorr__l2tight/latino_Run2016B_PromptReco_DoubleEG.root
-    xrdfs root://eoscms.cern.ch stat /store/data/Run2015D/SingleMuon/MINIAOD/PromptReco-v4/000/258/159/00000/6CA1C627-246C-E511-8A6A-02163E014147.root
+protocols :
+cmsxrootd.fnal.gov : US
+xrootd-cms.infn.it : Europe and Asia
+cms-xrd-global.cern.ch : global
 
+    xrdcp root://[protocol]///store/mc/.../sample.root .
+    root://eosuser.cern.ch//eos/user/j/jlauwers/HWW2015/21Jun2016_Run2016B_PromptReco/l2loose__hadd__EpTCorr__l2tight/latino_Run2016B_PromptReco_DoubleEG.root
+    xrdfs root://eoscms.cern.ch stat /store/data/.../sample.root
+    
 batch job submission on KNU T2
 ====
     qsub -q cms -l walltime=500:00:00,cput=500:00:00 job_desc_$isec.sh -N WpMu_dyn13_$isec
