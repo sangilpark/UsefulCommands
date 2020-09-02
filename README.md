@@ -133,6 +133,28 @@ Grid SE endpoint example.
     
 DASGO
 ====
-    dasgoclient --query="dataset file=/store/mc/RunIISummer16DR80Premix/SMS-T2bt-LLChipm_ctau-200_mLSP-900_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/AODSIM/PUMoriond17_longlived_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v2/260000/BEDE428C-62A5-E911-9CD4-B026283DA2A0.root"
-    dasgoclient --query="file dataset file=/store/mc/RunIISummer16DR80Premix/SMS-T2bt-LLChipm_ctau-200_mLSP-900_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/AODSIM/PUMoriond17_longlived_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v2/260000/BEDE428C-62A5-E911-9CD4-B026283DA2A0.root"
-
+    dasgoclient -help
+    Usage: dasgoclient [options]
+      -daskeys
+            Show supported DAS keys
+      -examples
+            Show examples of supported DAS queries
+      -json
+            Return results in JSON data-format
+      -profileMode string
+            enable profiling mode, one of [cpu, mem, block]
+      -query string
+            DAS query to run
+      -sep string
+            Separator to use (default " ")
+      -unique
+            Sort results and return unique list
+      -verbose int
+            Verbose level, support 0,1,2
+    Examples:
+            # get results
+            dasgoclient -query="dataset=/ZMM*/*/*"
+            # get results in JSON data-format
+            dasgoclient -query="dataset=/ZMM*/*/*" -json
+            # get results from specific CMS data-service, e.g. phedex
+            dasgoclient -query="file dataset=/ZMM/Summer11-DESIGN42_V11_428_SLHC1-v1/GEN-SIM system=phedex" -json
