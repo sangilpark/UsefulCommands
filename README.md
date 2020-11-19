@@ -79,12 +79,6 @@ UberFTP
     put -r directory # copy files from local to SE
     Command : help, put, get, ldir, lcd, etc..
 
-CERNBOX
-====
-    /afs/cern.ch/project/eos/installation/0.3.84-aquamarine.user/bin/eos.select
-    /afs/cern.ch/project/eos/installation/0.3.84-aquamarine.user/bin/eos.select -b fuse mount ~/eos_cernbox #cernbox mount
-    ls /eos/user/j/jlauwers/HWW2015/
-
 FDT Usage 
 ====
 Client side.
